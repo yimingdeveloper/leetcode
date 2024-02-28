@@ -3,6 +3,7 @@
 ### List of resolved items(Keep updating)
 
 - 56: Merge Intervals
+- 236: Lowest Common Ancestor of a Binary Tree
 - 314: Binary Tree Vertical Order Traversal
 - 339: Nested List Weight Sum
 - 408: Valid Word Abbreviation
