@@ -2,6 +2,7 @@
 
 ### List of resolved items(Keep updating)
 
+- 56: Merge Intervals
 - 314: Binary Tree Vertical Order Traversal
 - 408: Valid Word Abbreviation
 - 1249: Minimum Remove to Make Valid Parentheses
