@@ -26,6 +26,8 @@ Space: O(k)
 
 #### Solution 2: Quick Select
 
+九章令狐冲解法。
+
 ```
 class Solution {
     public int findKthLargest(int[] nums, int k) {
