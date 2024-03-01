@@ -13,6 +13,7 @@
 - 560: Subarray Sum Equals K
 - 680: Valid Palindrome II
 - [938: Range Sum of BST](https://github.com/yimingdeveloper/leetcode/blob/main/93x/938-Range%20Sum%20of%20BST)
+- 973: K Closest Points to Origin
 - 1570: Dot Product of Two Sparse Vectors
 - 1650: Lowest Common Ancestor of a Binary Tree III
 - 1249: Minimum Remove to Make Valid Parentheses
