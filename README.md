@@ -7,6 +7,7 @@
 - [236: Lowest Common Ancestor of a Binary Tree](https://github.com/yimingdeveloper/leetcode/blob/main/23x/236-Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree.md)
 - 314: Binary Tree Vertical Order Traversal
 - 339: Nested List Weight Sum
+- 346 - Moving Average from Data Stream
 - 408: Valid Word Abbreviation
 - 426: Convert Binary Search Tree to Sorted Doubly Linked List
 - 680: Valid Palindrome II
