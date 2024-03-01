@@ -3,6 +3,7 @@
 ### List of resolved items(Keep updating)
 
 - [56: Merge Intervals](https://github.com/yimingdeveloper/leetcode/blob/main/5x/56-Merge%20Intervals.md)
+- 125: Valid Palindrome
 - [215: Kth Largest Element in an Array](https://github.com/yimingdeveloper/leetcode/blob/main/21x/215-Kth%20Largest%20Element%20in%20an%20Array.md)
 - [236: Lowest Common Ancestor of a Binary Tree](https://github.com/yimingdeveloper/leetcode/blob/main/23x/236-Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree.md)
 - 314: Binary Tree Vertical Order Traversal
