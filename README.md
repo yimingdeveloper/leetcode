@@ -9,6 +9,7 @@
 - 339: Nested List Weight Sum
 - 408: Valid Word Abbreviation
 - 680: Valid Palindrome II
+- 938: Range Sum of BST
 - 1570: Dot Product of Two Sparse Vectors
 - 1650: Lowest Common Ancestor of a Binary Tree III
 - 1249: Minimum Remove to Make Valid Parentheses

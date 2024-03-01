@@ -1,0 +1,22 @@
+## Leetcode 938
+
+### Range Sum of BST
+
+#### Solution 1: Divide & Conquer
+
+Sum = 左子树结果 + 右子树结果 + (当前节点within range ? node.val : 0)
+
+```
+class Solution {
+    public int rangeSumBST(TreeNode root, int low, int high) {
+        if (root == null) return 0;
+        int left = rangeSumBST(root.left, low, high);
+        int right = rangeSumBST(root.right, low, high);
+        int val = (root.val <= high && root.val >= low) ? root.val : 0;
+        return left + right + val;
+    }
+}
+```
+
+Time: O(n)
+Space: O(logn)
