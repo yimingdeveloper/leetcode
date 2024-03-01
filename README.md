@@ -2,7 +2,7 @@
 
 ### List of resolved items(Keep updating)
 
-- 56: Merge Intervals
+- [56: Merge Intervals](https://github.com/yimingdeveloper/leetcode/blob/main/5x/56-Merge%20Intervals.md)
 - 215: Kth Largest Element in an Array
 - 236: Lowest Common Ancestor of a Binary Tree
 - 314: Binary Tree Vertical Order Traversal
