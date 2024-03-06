@@ -1,5 +1,9 @@
 ## Summaries of leetcode questions. Feel free to reach out to me if you have better solutions.
 
+### Number of resolved questions
+
+22
+
 ### List of resolved items(Keep updating)
 
 - [56: Merge Intervals](https://github.com/yimingdeveloper/leetcode/blob/main/5x/56-Merge%20Intervals.md)
