@@ -24,6 +24,7 @@
 - 680: Valid Palindrome II
 - 791: Custom Sort String
 - [938: Range Sum of BST](https://github.com/yimingdeveloper/leetcode/blob/main/93x/938-Range%20Sum%20of%20BST)
+- 921: Minimum Add to Make Parentheses Valid
 - 973: K Closest Points to Origin
 - 1570: Dot Product of Two Sparse Vectors
 - 1650: Lowest Common Ancestor of a Binary Tree III
