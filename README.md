@@ -11,6 +11,7 @@
 - 71: Simply Path
 - 125: Valid Palindrome
 - 129: Sum Root to Leaf Numbers
+- 162: Find Peak Element
 - 199: Binary Tree Right Side View
 - [215: Kth Largest Element in an Array](https://github.com/yimingdeveloper/leetcode/blob/main/21x/215-Kth%20Largest%20Element%20in%20an%20Array.md)
 - 227: Basic Calculator II
