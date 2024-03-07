@@ -28,5 +28,5 @@ class Solution {
 }
 ```
 
-Time: O(mn))
+Time: O(n)
 Space: O(n)
