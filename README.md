@@ -2,10 +2,11 @@
 
 ### Number of resolved questions
 
-22
+23
 
 ### List of resolved items(Keep updating)
 
+- 50: Pow(x, n)
 - [56: Merge Intervals](https://github.com/yimingdeveloper/leetcode/blob/main/5x/56-Merge%20Intervals.md)
 - 71: Simply Path
 - 125: Valid Palindrome
