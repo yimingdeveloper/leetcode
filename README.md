@@ -2,7 +2,7 @@
 
 ### Number of resolved questions
 
-23
+26
 
 ### List of resolved items(Keep updating)
 
