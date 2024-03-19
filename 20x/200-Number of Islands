@@ -1,0 +1,85 @@
+## Leetcode 200
+
+### Number of Islands
+
+#### Solution 1: DFS
+
+```
+class Solution {
+
+    public int numIslands(char[][] grid) {
+        int m = grid.length, n = grid[0].length;
+        int ans = 0;
+
+        for (int i = 0; i < m; i ++) {
+            for (int j = 0; j < n; j ++) {
+                if (grid[i][j] == '0') continue;
+                dfs(grid, i, j);
+                ans ++;
+            }
+        }
+
+        return ans;
+    }
+
+    private void dfs(char[][] grid, int x, int y) {
+        int m = grid.length, n = grid[0].length;
+        if (x >= 0 && x < m && y >= 0 && y < n && grid[x][y] == '1') {
+            grid[x][y] = '0';
+            dfs(grid, x + 1, y);
+            dfs(grid, x - 1, y);
+            dfs(grid, x, y + 1);
+            dfs(grid, x, y - 1);
+        }
+    }
+}
+```
+
+Time: O(mn)
+Space: O(mn)
+
+#### Solution 2: BFS
+
+```
+class Solution {
+
+    public int numIslands(char[][] grid) {
+        int m = grid.length, n = grid[0].length;
+        int ans = 0;
+
+        for (int i = 0; i < m; i ++) {
+            for (int j = 0; j < n; j ++) {
+                if (grid[i][j] == '0') continue;
+                sink(grid, i, j);
+                ans ++;
+            }
+        }
+        return ans;
+    }
+
+    int[] dx = new int[]{-1, 1, 0, 0};
+    int[] dy = new int[]{0, 0, -1, 1};
+
+    private void sink(char[][] grid, int x, int y) {
+        int m = grid.length, n = grid[0].length;
+        Queue<int[]> q = new LinkedList<>();
+        q.offer(new int[]{x, y});
+        grid[x][y] = '0';
+        while (!q.isEmpty()) {
+            int[] cur = q.poll();
+            for (int i = 0; i < 4; i ++) {
+                int X = cur[0] + dx[i];
+                int Y = cur[1] + dy[i];
+                if (X < 0 || X >= m || Y < 0 || Y >= n) continue;
+                if (grid[X][Y] == '1') {
+                    q.offer(new int[]{X, Y});
+                    grid[X][Y] = '0';
+                }
+            }
+        }
+    }
+}
+```
+
+Time: O(mn)
+Space: O(mn)
