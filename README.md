@@ -9,6 +9,7 @@
 - 50: Pow(x, n)
 - [56: Merge Intervals](https://github.com/yimingdeveloper/leetcode/blob/main/5x/56-Merge%20Intervals.md)
 - 71: Simply Path
+- 88: Merge Sorted Array
 - 125: Valid Palindrome
 - 129: Sum Root to Leaf Numbers
 - 162: Find Peak Element
